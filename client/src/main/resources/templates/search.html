@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Поиск счета</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <form method="post" action="/getAccount">
+        <p>Для поиска счета введите номер: <input name="accountNumber" type="text"></p>
+        <input type="submit">
+    </form>
+
+    <form method="post" action="/create">
+        <p>Для создания счета введите </p>
+        <p>номер: <input name="accountNumber" type="text"></p>
+        <p>имя: <input name="owner" type="text"></p>
+        <p>баланс: <input name="balance" type="text"></p>
+        <input type="submit">
+    </form>
+
+    <form method="post" action="/close">
+        <p>Для закрытия счета введите </p>
+        <p>номер: <input name="accountNumber" type="text"></p>
+        <input type="submit">
+    </form>
+</body>
+</html>

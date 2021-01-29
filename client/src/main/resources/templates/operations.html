@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Операции по счету</title>
+</head>
+<body>
+<p th:text="'Номер счета: ' + ${account.getAccountNumber()} "/>
+<p th:text="'Владелец: ' + ${account.getOwner()} "/>
+<p th:text="'Баланс: ' + ${account.getBalance()} "/>
+<h2>История операций:</h2>
+<table>
+    <thead>
+    <tr>
+        <th>accountFrom</th>
+        <th>accountTo</th>
+        <th>summ</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${operations.empty}">
+        <td colspan="3"> No operations Available</td>
+    </tr>
+    <tr th:each="operation : ${operations}">
+        <td><span th:text="${operation.accountFrom}"> Account from </span></td>
+        <td><span th:text="${operation.accountTo}"> Account to </span></td>
+        <td><span th:text="${operation.summ}"> Summa </span></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

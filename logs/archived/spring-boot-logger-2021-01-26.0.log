@@ -1,0 +1,36 @@
+2021-01-26 22:49:32,228 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 9424 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-26 22:49:32,239 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 22:49:32,240 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-26 22:49:34,508 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.436 seconds (JVM running for 4.972)
+2021-01-26 22:49:52,817 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-26 22:49:52,836 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 15580 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-26 22:49:52,837 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 22:49:52,838 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-26 22:49:56,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-26 22:49:56,777 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-26 22:49:56,779 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-26 22:49:56,780 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-26 22:49:56,987 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-26 22:49:56,988 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4058 ms
+2021-01-26 22:49:57,443 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 22:49:57,611 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-26 22:49:57,990 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-26 22:49:58,026 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-26 22:49:58,049 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 7.766 seconds (JVM running for 9.946)
+2021-01-26 22:50:24,937 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 22:50:24,938 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-26 22:50:24,939 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-01-26 22:50:30,018 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-2] Sent: %s Queue: %s
+2021-01-26 22:50:30,068 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Starting...
+2021-01-26 22:50:30,404 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Start completed.
+2021-01-26 22:50:30,572 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-2] Received: {0}. Queue: {1}.
+2021-01-26 22:50:56,261 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-3] Sent: %s Queue: %s
+2021-01-26 22:50:56,278 INFO ru.fyodorov.server.dao.AccountDaoJdbcImpl [DefaultMessageListenerContainer-1] Decreased balance, account={0}, amount={1}
+2021-01-26 22:50:56,294 INFO ru.fyodorov.server.dao.OperationDaoJdbcImpl [DefaultMessageListenerContainer-1] Added operation to db, from={0}, to={1}, amount={2}
+2021-01-26 22:50:56,313 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-3] Received: {0}. Queue: {1}.
+2021-01-26 22:50:56,320 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-3] Sent: %s Queue: %s
+2021-01-26 22:50:56,332 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-3] Received: {0}. Queue: {1}.
+2021-01-26 22:51:42,811 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-26 22:51:57,641 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'accountNumber' is not present]
+2021-01-26 22:52:07,317 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-5] Sent: %s Queue: %s
+2021-01-26 22:52:07,328 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-5] Received: {0}. Queue: {1}.

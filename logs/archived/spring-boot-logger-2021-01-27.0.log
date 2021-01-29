@@ -1,0 +1,157 @@
+2021-01-27 10:36:01,865 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 10:36:01,881 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 12388 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 10:36:01,884 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 10:36:01,885 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 10:36:04,070 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 10:36:04,096 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 10:36:04,099 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 10:36:04,100 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 10:36:04,295 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 10:36:04,296 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2284 ms
+2021-01-27 10:36:04,872 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:36:05,042 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 10:36:05,464 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 10:36:05,499 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 10:36:05,623 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 4.919 seconds (JVM running for 6.85)
+2021-01-27 10:36:16,834 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 11668 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 10:36:16,843 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 10:36:16,845 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 10:36:19,491 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 4.369 seconds (JVM running for 6.365)
+2021-01-27 10:36:35,865 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 10:36:35,866 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:36:35,869 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-01-27 10:36:40,391 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-4] Sent: %s Queue: %s
+2021-01-27 10:36:40,426 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Starting...
+2021-01-27 10:36:40,792 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Start completed.
+2021-01-27 10:36:40,960 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-4] Received: {0}. Queue: {1}.
+2021-01-27 10:36:50,254 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-5] Sent: %s Queue: %s
+2021-01-27 10:36:50,268 INFO ru.fyodorov.server.dao.AccountDaoJdbcImpl [DefaultMessageListenerContainer-1] Decreased balance, account={0}, amount={1}
+2021-01-27 10:36:50,289 INFO ru.fyodorov.server.dao.OperationDaoJdbcImpl [DefaultMessageListenerContainer-1] Added operation to db, from={0}, to={1}, amount={2}
+2021-01-27 10:36:50,318 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-5] Received: {0}. Queue: {1}.
+2021-01-27 10:36:50,326 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-5] Sent: %s Queue: %s
+2021-01-27 10:36:50,337 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-5] Received: {0}. Queue: {1}.
+2021-01-27 15:51:37,375 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 5464 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 15:51:37,381 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 15:51:37,382 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 15:51:39,685 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.252 seconds (JVM running for 4.89)
+2021-01-27 15:51:55,001 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 15:51:55,028 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 12224 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 15:51:55,030 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 15:51:55,031 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 15:51:57,775 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 15:51:57,794 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 15:51:57,795 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 15:51:57,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 15:51:57,985 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 15:51:57,986 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2814 ms
+2021-01-27 15:51:58,448 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:51:58,576 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 15:51:58,985 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 15:51:59,031 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 15:51:59,065 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 5.384 seconds (JVM running for 7.34)
+2021-01-27 15:52:12,431 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 15:52:12,432 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-27 15:52:12,434 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-01-27 15:52:15,667 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-2] Sent: %s Queue: %s
+2021-01-27 15:52:15,709 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Starting...
+2021-01-27 15:52:16,071 INFO com.zaxxer.hikari.HikariDataSource [DefaultMessageListenerContainer-1] HikariPool-1 - Start completed.
+2021-01-27 15:52:16,252 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-2] Received: {0}. Queue: {1}.
+2021-01-27 15:52:27,343 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-3] Sent: %s Queue: %s
+2021-01-27 15:52:27,356 INFO ru.fyodorov.server.dao.AccountDaoJdbcImpl [DefaultMessageListenerContainer-1] Decreased balance, account={0}, amount={1}
+2021-01-27 15:52:27,371 INFO ru.fyodorov.server.dao.OperationDaoJdbcImpl [DefaultMessageListenerContainer-1] Added operation to db, from={0}, to={1}, amount={2}
+2021-01-27 15:52:27,386 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-3] Received: {0}. Queue: {1}.
+2021-01-27 15:52:27,392 DEBUG ru.fyodorov.client.integration.jms.JmsSender [http-nio-8080-exec-3] Sent: %s Queue: %s
+2021-01-27 15:52:27,401 DEBUG ru.fyodorov.client.integration.jms.JmsReceiver [http-nio-8080-exec-3] Received: {0}. Queue: {1}.
+2021-01-27 19:28:52,605 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 17352 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:28:52,611 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:28:52,612 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:28:54,886 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.179 seconds (JVM running for 4.631)
+2021-01-27 19:29:08,291 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 19:29:08,302 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 15320 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:29:08,304 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:29:08,305 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:29:11,654 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:29:11,676 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:29:11,678 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 19:29:11,679 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:29:11,871 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 19:29:11,871 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3480 ms
+2021-01-27 19:29:12,419 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:29:12,598 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 19:29:12,993 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:29:13,045 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:29:13,171 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 6.237 seconds (JVM running for 8.62)
+2021-01-27 19:29:41,893 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 19:29:41,894 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:29:41,895 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-01-27 19:30:50,643 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 19:31:46,095 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 13172 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:31:46,095 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 19:31:46,102 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:31:46,103 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:31:48,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:31:48,139 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:31:48,141 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 19:31:48,142 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:31:48,290 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 19:31:48,291 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2110 ms
+2021-01-27 19:31:48,812 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:31:49,030 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 19:31:49,399 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:31:49,438 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:31:49,551 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 4.364 seconds (JVM running for 5.768)
+2021-01-27 19:32:01,280 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 16660 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:32:01,289 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:32:01,290 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:32:03,694 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.852 seconds (JVM running for 5.546)
+2021-01-27 19:32:14,908 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 19:32:14,910 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:32:14,913 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 3 ms
+2021-01-27 19:32:19,183 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'accountNumber' is not present]
+2021-01-27 19:46:24,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 8420 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:46:24,926 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:46:24,927 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:46:27,187 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.264 seconds (JVM running for 4.639)
+2021-01-27 19:46:38,147 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 19:46:38,155 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 16884 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:46:38,157 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:46:38,158 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:46:40,191 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:46:40,213 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:46:40,215 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 19:46:40,215 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:46:40,394 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 19:46:40,395 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2150 ms
+2021-01-27 19:46:40,943 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:46:41,111 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 19:46:41,525 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:46:41,567 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:46:41,691 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 4.458 seconds (JVM running for 6.332)
+2021-01-27 19:46:56,776 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 19:46:56,778 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:46:56,781 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-01-27 19:47:32,281 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 19:48:56,274 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-01-27 19:48:56,293 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClientApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 11920 (C:\I-teco\jms-task\client\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:48:56,294 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:48:56,295 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:48:58,330 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:48:58,351 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:48:58,353 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-27 19:48:58,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:48:58,555 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-27 19:48:58,556 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2178 ms
+2021-01-27 19:48:59,091 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:48:59,272 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-01-27 19:48:59,764 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:48:59,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:48:59,897 INFO org.springframework.boot.StartupInfoLogger [main] Started ClientApplication in 4.586 seconds (JVM running for 6.184)
+2021-01-27 19:49:08,433 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServerApplication using Java 1.8.0_261 on LAPTOP-5NTJ8BG8 with PID 3356 (C:\I-teco\jms-task\server\build\classes\java\main started by 11akb in C:\I-teco\jms-task)
+2021-01-27 19:49:08,440 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:49:08,441 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-27 19:49:10,636 INFO org.springframework.boot.StartupInfoLogger [main] Started ServerApplication in 3.236 seconds (JVM running for 5.209)
+2021-01-27 19:49:33,438 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 19:49:33,439 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:49:33,441 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-01-27 19:49:46,547 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 19:49:49,163 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

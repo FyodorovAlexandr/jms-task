@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Данные о счете</title>
+</head>
+<body>
+<p th:text="'Номер счета: ' + ${account.getAccountNumber()} "/>
+<p th:text="'Владелец: ' + ${account.getOwner()} "/>
+<p th:text="'Баланс: ' + ${account.getBalance()} "/>
+<hr>
+<a th:href="@{/showOperations(accountNumber=${account.accountNumber})}">История операций по счету</a>
+<hr>
+<form action="/makeTransfer" method="post">
+    <p>Введите сумму перевода: <input type="text" name="amount"/></p>
+    <p>Введите счет назначения перевода: <input type="text" name="accountTarget"/></p>
+    <input type="hidden" name="accountNumber" th:attr="value=${account.accountNumber}"/>
+    <input type="submit">
+</form>
+</body>
+</html>
